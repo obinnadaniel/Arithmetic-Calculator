@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body{
+  padding: 20px;
+  background-color:#fef4f4;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight:200px;
+}
+
+.calculator {
+  position: relative;
+  background-color:#a0d8ef;
+  margin: auto;
+  width: 250px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px grey;
+  margin-left: 0 auto;
+}
+
+.result {
+ border: none;
+ border-radius: 5px;
+ padding: 5px 0px 5px 0px;
+ margin: 20px 25px 10px 25px;
+ width: 200px;
+ text-align: right;
+ 
+}
+
+button {
+  text-align:center;
+  background-color: #ffdb4f;
+  width: 30px;
+  border-radius: 20%;
+  padding-right: 5px;
+  margin:5px 5px 5px 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  box-shadow: 0px 4px 0px 0px #f8b500;
+}
+
+button :disabled{
+  text-align:center;
+  background-color: #ffdb4f;
+  width: 30px;
+  border-radius: 20%;
+  padding-right: 5px;
+  margin:5px 5px 5px 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  box-shadow: 0px 4px 0px 0px #f8b500;
+}
+button:active {
+  background-color: #ea5506;
+  box-shadow: 0px 2px 0px 0px #f8b500;
+  transform: translateY(2px);
+}
+
+.lbtn {
+  background-color: #88cb7f;
+  width: 80px;
+  inline-block:none;
+  margin-right:10px;
+  margin-bottom:20px;
+  box-shadow: 0px 4px 0px 0px #69b076;
+}
+
+.lbtn :active {
+  background-color: #ea5506;
+  box-shadow: 0px 2px 0px 0px #69b076;
+  transform: translateY(2px);
+}
+
+.buttons {
+  margin-left: 30px;
+}
+
+footer {
+  margin-top: 10px;
+}
+
+.credit a {
+  color: #1e50a2;
+  text-decoration:none;
+}
